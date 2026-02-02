@@ -1,0 +1,97 @@
+﻿@model SalahTimes.Models.SalahTime
+
+@{
+    ViewData["Title"] = "Add Salah Time";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="fw-bold text-primary">
+            <i class="fas fa-mosque me-2"></i> Add New Salah Time
+        </h2>
+        <a asp-action="Index" class="btn btn-outline-secondary">
+            <i class="fas fa-arrow-left me-1"></i> Back to List
+        </a>
+    </div>
+
+    <div class="card shadow-sm border-0">
+        <div class="card-body">
+            <form asp-action="Create" method="post" class="needs-validation" novalidate>
+                <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
+
+                <!-- Common class for input width -->
+                <style>
+                    .input-box {
+                        max-width: 60%;
+                        border: 1px solid #ced4da;
+                        border-radius: 4px;
+                    }
+                </style>
+
+                <!-- City -->
+                <div class="mb-3">
+                    <label asp-for="CityId" class="form-label fw-semibold">City</label>
+                    <select asp-for="CityId" class="form-select input-box" asp-items="ViewBag.CityId">
+                        <option value="">-- Select City --</option>
+                    </select>
+                    <span asp-validation-for="CityId" class="text-danger"></span>
+                </div>
+
+                <!-- Date -->
+                <div class="mb-3">
+                    <label asp-for="Date" class="form-label fw-semibold">Date</label>
+                    <input asp-for="Date" type="date" class="form-control input-box" />
+                    <span asp-validation-for="Date" class="text-danger"></span>
+                </div>
+
+                <!-- Fajr -->
+                <div class="mb-3">
+                    <label asp-for="Fajr" class="form-label fw-semibold">Fajr</label>
+                    <input asp-for="Fajr" type="time" class="form-control input-box" />
+                    <span asp-validation-for="Fajr" class="text-danger"></span>
+                </div>
+
+                <!-- Dhuhr -->
+                <div class="mb-3">
+                    <label asp-for="Dhuhr" class="form-label fw-semibold">Dhuhr</label>
+                    <input asp-for="Dhuhr" type="time" class="form-control input-box" />
+                    <span asp-validation-for="Dhuhr" class="text-danger"></span>
+                </div>
+
+                <!-- Asr -->
+                <div class="mb-3">
+                    <label asp-for="Asr" class="form-label fw-semibold">Asr</label>
+                    <input asp-for="Asr" type="time" class="form-control input-box" />
+                    <span asp-validation-for="Asr" class="text-danger"></span>
+                </div>
+
+                <!-- Maghrib -->
+                <div class="mb-3">
+                    <label asp-for="Maghrib" class="form-label fw-semibold">Maghrib</label>
+                    <input asp-for="Maghrib" type="time" class="form-control input-box" />
+                    <span asp-validation-for="Maghrib" class="text-danger"></span>
+                </div>
+
+                <!-- Isha -->
+                <div class="mb-3">
+                    <label asp-for="Isha" class="form-label fw-semibold">Isha</label>
+                    <input asp-for="Isha" type="time" class="form-control input-box" />
+                    <span asp-validation-for="Isha" class="text-danger"></span>
+                </div>
+
+                <!-- Submit -->
+                <div class="d-flex justify-content-end">
+                    <button type="submit" class="btn btn-success px-4">
+                        <i class="fas fa-save me-1"></i> Save Salah Time
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

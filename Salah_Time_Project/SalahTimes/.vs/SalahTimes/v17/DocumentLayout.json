@@ -1,0 +1,166 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BA504-D78D-4030-B98B-0C5EE3195186}|SalahTimes\\SalahTimes.csproj|C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\salahtimes\\views\\salahtimes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D49BA504-D78D-4030-B98B-0C5EE3195186}|SalahTimes\\SalahTimes.csproj|solutionrelative:salahtimes\\views\\salahtimes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BA504-D78D-4030-B98B-0C5EE3195186}|SalahTimes\\SalahTimes.csproj|c:\\users\\dell\\documents\\web project\\salahtimes\\salahtimes\\controllers\\salahtimescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49BA504-D78D-4030-B98B-0C5EE3195186}|SalahTimes\\SalahTimes.csproj|solutionrelative:salahtimes\\controllers\\salahtimescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BA504-D78D-4030-B98B-0C5EE3195186}|SalahTimes\\SalahTimes.csproj|C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\salahtimes\\controllers\\salahtimesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49BA504-D78D-4030-B98B-0C5EE3195186}|SalahTimes\\SalahTimes.csproj|solutionrelative:salahtimes\\controllers\\salahtimesapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BA504-D78D-4030-B98B-0C5EE3195186}|SalahTimes\\SalahTimes.csproj|C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\salahtimes\\views\\salahtimes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D49BA504-D78D-4030-B98B-0C5EE3195186}|SalahTimes\\SalahTimes.csproj|solutionrelative:salahtimes\\views\\salahtimes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BA504-D78D-4030-B98B-0C5EE3195186}|SalahTimes\\SalahTimes.csproj|C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\salahtimes\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D49BA504-D78D-4030-B98B-0C5EE3195186}|SalahTimes\\SalahTimes.csproj|solutionrelative:salahtimes\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BA504-D78D-4030-B98B-0C5EE3195186}|SalahTimes\\SalahTimes.csproj|C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\salahtimes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49BA504-D78D-4030-B98B-0C5EE3195186}|SalahTimes\\SalahTimes.csproj|solutionrelative:salahtimes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BA504-D78D-4030-B98B-0C5EE3195186}|SalahTimes\\SalahTimes.csproj|C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\salahtimes\\models\\salahtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49BA504-D78D-4030-B98B-0C5EE3195186}|SalahTimes\\SalahTimes.csproj|solutionrelative:salahtimes\\models\\salahtime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BA504-D78D-4030-B98B-0C5EE3195186}|SalahTimes\\SalahTimes.csproj|C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\salahtimes\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49BA504-D78D-4030-B98B-0C5EE3195186}|SalahTimes\\SalahTimes.csproj|solutionrelative:salahtimes\\models\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49BA504-D78D-4030-B98B-0C5EE3195186}|SalahTimes\\SalahTimes.csproj|C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\salahtimes\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49BA504-D78D-4030-B98B-0C5EE3195186}|SalahTimes\\SalahTimes.csproj|solutionrelative:salahtimes\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\SalahTimes\\Views\\SalahTimes\\Index.cshtml",
+              "RelativeDocumentMoniker": "SalahTimes\\Views\\SalahTimes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\SalahTimes\\Views\\SalahTimes\\Index.cshtml",
+              "RelativeToolTip": "SalahTimes\\Views\\SalahTimes\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T06:17:09.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\SalahTimes\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "SalahTimes\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\SalahTimes\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "SalahTimes\\Views\\Users\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T06:17:03.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\SalahTimes\\Views\\SalahTimes\\Create.cshtml",
+              "RelativeDocumentMoniker": "SalahTimes\\Views\\SalahTimes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\SalahTimes\\Views\\SalahTimes\\Create.cshtml",
+              "RelativeToolTip": "SalahTimes\\Views\\SalahTimes\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-01T06:16:57.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\SalahTimes\\Program.cs",
+              "RelativeDocumentMoniker": "SalahTimes\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\SalahTimes\\Program.cs",
+              "RelativeToolTip": "SalahTimes\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T20:11:52.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\SalahTimes\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "SalahTimes\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\SalahTimes\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "SalahTimes\\Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T05:47:16.943Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "City.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\SalahTimes\\Models\\City.cs",
+              "RelativeDocumentMoniker": "SalahTimes\\Models\\City.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\SalahTimes\\Models\\City.cs",
+              "RelativeToolTip": "SalahTimes\\Models\\City.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T05:47:13.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SalahTime.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\SalahTimes\\Models\\SalahTime.cs",
+              "RelativeDocumentMoniker": "SalahTimes\\Models\\SalahTime.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\SalahTimes\\Models\\SalahTime.cs",
+              "RelativeToolTip": "SalahTimes\\Models\\SalahTime.cs",
+              "ViewState": "AQIAAAsAAAAAyMzMzMz8vxgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T05:47:00.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SalahTimesApiController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\SalahTimes\\Controllers\\SalahTimesApiController.cs",
+              "RelativeDocumentMoniker": "SalahTimes\\Controllers\\SalahTimesApiController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\SalahTimes\\Controllers\\SalahTimesApiController.cs",
+              "RelativeToolTip": "SalahTimes\\Controllers\\SalahTimesApiController.cs",
+              "ViewState": "AQIAAA4AAAAA+v/////9vx8AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T06:00:48.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SalahTimesController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\SalahTimes\\Controllers\\SalahTimesController.cs",
+              "RelativeDocumentMoniker": "SalahTimes\\Controllers\\SalahTimesController.cs",
+              "ToolTip": "C:\\Users\\DELL\\Documents\\Web Project\\SalahTimes\\SalahTimes\\Controllers\\SalahTimesController.cs",
+              "RelativeToolTip": "SalahTimes\\Controllers\\SalahTimesController.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAIAwwDkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T05:57:40.114Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

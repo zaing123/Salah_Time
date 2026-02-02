@@ -1,0 +1,54 @@
+﻿@model SalahTimes.Models.SalahTime
+
+@{
+    ViewData["Title"] = "Salah Time Details";
+}
+
+<div class="container mt-5">
+    <div class="card shadow border-0">
+        <div class="card-header bg-info text-white d-flex justify-content-between align-items-center">
+            <h4 class="mb-0">
+                <i class="fas fa-clock me-2"></i> Salah Time Details
+            </h4>
+            <a asp-action="Index" class="btn btn-sm btn-light text-dark">
+                <i class="fas fa-arrow-left me-1"></i> Back to List
+            </a>
+        </div>
+
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">Date</dt>
+                <dd class="col-sm-9">@Model.Date.ToString("dd MMM yyyy")</dd>
+
+                <dt class="col-sm-3">Fajr</dt>
+                <dd class="col-sm-9"><span class="badge bg-info">@Model.Fajr</span></dd>
+
+                <dt class="col-sm-3">Dhuhr</dt>
+                <dd class="col-sm-9"><span class="badge bg-primary">@Model.Dhuhr</span></dd>
+
+                <dt class="col-sm-3">Asr</dt>
+                <dd class="col-sm-9"><span class="badge bg-warning text-dark">@Model.Asr</span></dd>
+
+                <dt class="col-sm-3">Maghrib</dt>
+                <dd class="col-sm-9"><span class="badge bg-danger">@Model.Maghrib</span></dd>
+
+                <dt class="col-sm-3">Isha</dt>
+                <dd class="col-sm-9"><span class="badge bg-dark">@Model.Isha</span></dd>
+
+                <dt class="col-sm-3">City</dt>
+                <dd class="col-sm-9">@Model.City?.CityName</dd>
+
+
+            </dl>
+
+            <div class="d-flex justify-content-end mt-4">
+                <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary me-2">
+                    <i class="fas fa-edit me-1"></i> Edit
+                </a>
+                <a asp-action="Index" class="btn btn-secondary">
+                    <i class="fas fa-list me-1"></i> Back to List
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

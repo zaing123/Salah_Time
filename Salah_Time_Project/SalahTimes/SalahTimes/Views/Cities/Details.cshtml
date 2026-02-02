@@ -1,0 +1,26 @@
+﻿@model SalahTimes.Models.City
+
+@{
+    ViewData["Title"] = "City Details";
+}
+
+<div class="container-fluid mt-4">
+    <div class="card shadow-lg border border-info">
+        <div class="card-header bg-info text-white">
+            <h4 class="mb-0">🌍 City Details</h4>
+        </div>
+
+        <div class="card-body px-3">
+            <p><strong>City Name:</strong> @Html.DisplayFor(model => model.CityName)</p>
+            <p><strong>Country:</strong> @Html.DisplayFor(model => model.Country)</p>
+            <p><strong>Latitude:</strong> @Html.DisplayFor(model => model.Latitude)</p>
+            <p><strong>Longitude:</strong> @Html.DisplayFor(model => model.Longitude)</p>
+            <p><strong>Timezone:</strong> @Html.DisplayFor(model => model.Timezone)</p>
+
+            <div class="d-flex justify-content-between mt-4">
+                <a asp-action="Index" class="btn btn-secondary">← Back to List</a>
+                <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary">Edit</a>
+            </div>
+        </div>
+    </div>
+</div>

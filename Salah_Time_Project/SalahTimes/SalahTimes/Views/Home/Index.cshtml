@@ -1,0 +1,63 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="container py-4">
+    <!-- Page Heading -->
+    <div class="mb-4 text-center">
+        <h2 class="fw-bold">🕌 Salah Time Admin Dashboard</h2>
+        <p class="text-muted">Manage cities, prayer times, and users</p>
+    </div>
+
+ 
+    <!-- Summary Cards -->
+    <div class="row g-4 mb-4 text-center">
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm bg-primary text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Total Cities</h5>
+                    <h2 class="card-text">@ViewData["TotalCities"]</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm bg-success text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Total Salah Times</h5>
+                    <h2 class="card-text">@ViewData["TotalSalahTimes"]</h2>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card border-0 shadow-sm bg-warning text-white">
+                <div class="card-body">
+                    <h5 class="card-title">Total Users</h5>
+                    <h2 class="card-text">@ViewData["TotalUsers"]</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="row mb-4">
+        <div class="col text-center">
+            <h5 class="mb-3">🔗 Quick Actions</h5>
+            <div class="d-flex flex-wrap justify-content-center gap-3">
+                <a href="/Cities" class="btn btn-outline-primary px-4">
+                    <i class="fas fa-city me-2"></i>Manage Cities
+                </a>
+                <a href="/SalahTimes" class="btn btn-outline-success px-4">
+                    <i class="fas fa-clock me-2"></i>Manage Salah Times
+                </a>
+                <a href="/Users" class="btn btn-outline-warning px-4">
+                    <i class="fas fa-users-cog me-2"></i>Manage Users
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer or Note -->
+    <div class="text-center text-muted">
+        <small>&copy; 2025 SalahTime Admin Panel</small>
+    </div>
+</div>
